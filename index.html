@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Página feita como parte do processo seletivo para vaga na TV Globo.">
+    <meta name="robots" content="noindex, nofollow">
+    <meta name="author" content="Alexandre Gomide">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=7">
+
+    <title>Votação Personagem do Carnaval Carioca</title>
+
+    <link rel="stylesheet" href="css/alertify.css">
+    <link rel="stylesheet" href="css/default.min.css">
+    <link rel="stylesheet" href="css/main.min.css">
+    <link rel="stylesheet" href="font/fonts.css">
+</head>
+<body>
+
+    <div id="myModal" class="modal">
+
+      <!-- Modal content -->
+      <div class="modal-content">
+
+        <div class="modal-body">
+         <div class="modal-candidate">
+          <img src="img/profile-pic-01.jpg" alt="" class="profile-pic modal-pic">
+          <p class="modal-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid fuga harum laudantium. Reiciendis quidem ad corrupti eos, saepe sit ex a animi illo amet. Hic libero, perspiciatis laudantium quia ullam. Iste nihil labore, nostrum accusantium eum omnis praesentium harum provident voluptatem laborum nulla, nam voluptas quaerat! Reprehenderit in doloremque porro itaque eaque, commodi aspernatur, vero numquam, voluptatum ipsa maiores esse quos amet. Iste dolore ad nesciunt cupiditate aliquam odio itaque non praesentium molestias eius dolorem, earum consectetur explicabo tempore a, eligendi ducimus tempora quaerat nisi aliquid ut illum quidem repellendus. Dolorum debitis doloribus officiis fugit dolorem temporibus ea itaque, quisquam, nobis laboriosam quas praesentium sed. Velit molestiae, libero perferendis! Temporibus expedita aspernatur cumque, itaque magni dolorem laudantium, facere officiis recusandae magnam corporis illum tempore totam, ad pariatur accusamus sapiente, tempora aperiam iusto laboriosam velit consectetur est mollitia. Reprehenderit, minima fugiat consectetur quibusdam? Labore unde amet neque quo, animi eius, architecto.</p>
+          <img src="img/icon-close.svg" alt="" class="close">
+          </div>
+
+          <div class="buttons modal-buttons">
+                <button><a class="about modal-about" href="#">Fechar</a></button>
+                <button onclick="votoComputado()"><a class="vote modal-vote" href="#">Votar</a></button>
+            </div>
+        </div>
+
+      </div>
+    </div>
+
+    <div class="container">
+        <h1 class="main-title">Votação Personagem do Carnaval Carioca</h1>
+
+        <div id="voting-section">
+            <section>
+                <h2 class="second-title">Escolha o seu favorito!</h2>
+            </section>
+
+            <section class="candidates">
+                <div class="card">
+                    <img src="img/profile-pic-01.jpg" alt="" class="profile-pic">
+                    <h4 class="profile-name">Cristina da Silva</h4>
+                    <div class="buttons">
+                        <button id="myBtn-01"><a class="about" href="#">Conhecer</a></button>
+                        <button onclick="votoComputado()" ><a class="vote" href="#">Votar</a></button>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <img src="img/profile-pic-01.jpg" alt="" class="profile-pic">
+                    <h4 class="profile-name">Cristina da Silva</h4>
+                    <div class="buttons">
+                        <button id="myBtn-02"><a class="about" href="#">Conhecer</a></button>
+                        <button onclick="votoComputado()" ><a class="vote" href="#">Votar</a></button>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <img src="img/profile-pic-01.jpg" alt="" class="profile-pic">
+                    <h4 class="profile-name">Cristina da Silva</h4>
+                    <div class="buttons">
+                        <button id="myBtn-03"><a class="about" href="#">Conhecer</a></button>
+                        <button onclick="votoComputado()" ><a class="vote" href="#">Votar</a></button>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <img src="img/profile-pic-01.jpg" alt="" class="profile-pic">
+                    <h4 class="profile-name">Cristina da Silva</h4>
+                    <div class="buttons">
+                        <button id="myBtn-04"><a class="about" href="#">Conhecer</a></button>
+                        <button onclick="votoComputado()" ><a class="vote" href="#">Votar</a></button>
+                    </div>
+
+                </div>
+
+                <div class="card">
+                    <img src="img/profile-pic-01.jpg" alt="" class="profile-pic">
+                    <h4 class="profile-name">Cristina da Silva</h4>
+                    <div class="buttons">
+                        <button id="myBtn-05"><a class="about" href="#">Conhecer</a></button>
+                        <button onclick="votoComputado()" ><a class="vote" href="#">Votar</a></button>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <img src="img/profile-pic-01.jpg" alt="" class="profile-pic">
+                    <h4 class="profile-name">Cristina da Silva</h4>
+                    <div class="buttons">
+                        <button id="myBtn-06"><a class="about" href="#">Conhecer</a></button>
+                        <button onclick="votoComputado()" ><a class="vote" href="#">Votar</a></button>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <img src="img/profile-pic-01.jpg" alt="" class="profile-pic">
+                    <h4 class="profile-name">Cristina da Silva</h4>
+                    <div class="buttons">
+                        <button id="myBtn-07"><a class="about" href="#">Conhecer</a></button>
+                        <button onclick="votoComputado()" ><a class="vote" href="#">Votar</a></button>
+                    </div>
+
+                </div>
+
+                <div class="card">
+                    <img src="img/profile-pic-01.jpg" alt="" class="profile-pic">
+                    <h4 class="profile-name">Cristina da Silva</h4>
+                    <div class="buttons">
+                        <button id="myBtn-08"><a class="about" href="#">Conhecer</a></button>
+                        <button onclick="votoComputado()" ><a class="vote" href="#">Votar</a></button>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <img src="img/profile-pic-01.jpg" alt="" class="profile-pic">
+                    <h4 class="profile-name">Cristina da Silva</h4>
+                    <div class="buttons">
+                        <button id="myBtn-09"><a class="about" href="#">Conhecer</a></button>
+                        <button onclick="votoComputado()" ><a class="vote" href="#">Votar</a></button>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <img src="img/profile-pic-01.jpg" alt="" class="profile-pic">
+                    <h4 class="profile-name">Cristina da Silva</h4>
+                    <div class="buttons">
+                        <button id="myBtn-10"><a class="about" href="#">Conhecer</a></button>
+                        <button onclick="votoComputado()" ><a class="vote" href="#">Votar</a></button>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </div>
+
+
+
+<script>
+    // Get the modal
+    var modal = document.getElementById('myModal');
+
+    // Get the button that opens the modal
+    var btn1 = document.getElementById("myBtn-01");
+    var btn2 = document.getElementById("myBtn-02");
+    var btn3 = document.getElementById("myBtn-03");
+    var btn4 = document.getElementById("myBtn-04");
+    var btn5 = document.getElementById("myBtn-05");
+    var btn6 = document.getElementById("myBtn-06");
+    var btn7 = document.getElementById("myBtn-07");
+    var btn8 = document.getElementById("myBtn-08");
+    var btn9 = document.getElementById("myBtn-09");
+    var btn10 = document.getElementById("myBtn-10");
+
+    // Get the <span> element that closes the modal
+    var span = document.getElementsByClassName("close")[0];
+    var span1 = document.getElementsByClassName("modal-about")[0];
+
+    // When the user clicks the button, open the modal
+    btn1.onclick = function() {
+        modal.style.display = "flex";
+    }
+
+    btn2.onclick = function() {
+        modal.style.display = "flex";
+    }
+
+    btn3.onclick = function() {
+        modal.style.display = "flex";
+    }
+
+    btn4.onclick = function() {
+        modal.style.display = "flex";
+    }
+
+    btn5.onclick = function() {
+        modal.style.display = "flex";
+    }
+
+    btn6.onclick = function() {
+        modal.style.display = "flex";
+    }
+
+    btn7.onclick = function() {
+        modal.style.display = "flex";
+    }
+
+    btn8.onclick = function() {
+        modal.style.display = "flex";
+    }
+
+    btn9.onclick = function() {
+        modal.style.display = "flex";
+    }
+
+    btn10.onclick = function() {
+        modal.style.display = "flex";
+    }
+
+    // When the user clicks on <span> (x), close the modal
+    span.onclick = function() {
+        modal.style.display = "none";
+    }
+
+    span1.onclick = function() {
+        modal.style.display = "none";
+    }
+
+    // When the user clicks anywhere outside of the modal, close it
+    window.onclick = function(event) {
+        if (event.target == modal) {
+            modal.style.display = "none";
+        }
+    }
+</script>
+<script src="js/alertify.min.js"></script>
+<script src="js/votoComputado.js"></script>
+</body>
+</html>
