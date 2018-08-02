@@ -157,16 +157,20 @@ button+>.vote {
 }
 
 .card {
+    position: relative;
     min-width: 300px;
-    /* background-color: #5567f0; */
     padding: 1.2rem;
     margin: .8rem 0.8rem;
-    border-radius: 4px;
+    border-radius: 48% 48% 2% 2%;
     border: 3px solid #ffad00;
     cursor: default;
+    transition: all 400ms ease;
 }
 
-/* .card:nth-child(odd) {background-color: #ffe840;} */
+.card:hover {
+    transform: scale(1.1);
+    box-shadow: 0px 2px 10px #fdfdfd;
+}
 
 .profile-pic {
     border-radius: 50%;
